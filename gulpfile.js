@@ -7,7 +7,7 @@ var expressService = require('gulp-express-service');
 
 var wwwroot = './Client/';
 var paths = {
-	scripts   : ["Client/scripts/**/*.js"],
+	scripts   : ['Client/scripts/main.js','Client/scripts/**/*.js'],
 	styles   : ['Client/styles/**/*.css'],
 	templates: ['Client/templates/**/*.html'],
 	server	:	['server.js']
