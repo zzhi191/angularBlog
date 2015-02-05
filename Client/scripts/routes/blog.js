@@ -5,10 +5,10 @@ angular.module('YIJIEBUYI').config(['$stateProvider','$urlRouterProvider',functi
 		views:{
 			'container':{templateUrl:'templates/blog_layout.html'}
 		}
-	}).state('blog.index',{
-		url:'/index',
+	}).state('blog.detail',{
+		url:'/:blogID',
 		views:{
-			'container':{templaterUrl:'templates/blog_index.html'}
+			'container':{templaterUrl:'templates/blog_detail.html'}
 		}
 	})
 }]);

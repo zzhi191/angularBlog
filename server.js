@@ -45,7 +45,7 @@ app.use(function (req, res, next) {
 
 
 app.listen(config.port, function () {
-  console.log("NodeClub listening on port %d in %s mode", config.port, app.settings.env);
+
   console.log("The web service has been started....");
   console.log("You can debug your app with http://" + config.hostname + ':' + config.port);
 });
