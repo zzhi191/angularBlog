@@ -1,4 +1,4 @@
-angular.module('YIJIEBUYI').config(['$stateProvider','$urlRouterProvider',function($stateProvider,$urlRouterProvider){
+angular.module('YIJIEBUYI').config(['$stateProvider',function($stateProvider){
 
 	$stateProvider.state('blog',{
 		url:'/blog',
