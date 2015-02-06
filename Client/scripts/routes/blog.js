@@ -8,7 +8,7 @@ angular.module('YIJIEBUYI').config(['$stateProvider','$urlRouterProvider',functi
 	}).state('blog.detail',{
 		url:'/:blogID',
 		views:{
-			'container':{templaterUrl:'templates/blog_detail.html'}
+			'container':{templateUrl:'templates/blog_detail.html'}
 		}
-	})
+	});
 }]);

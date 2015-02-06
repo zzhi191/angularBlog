@@ -1,5 +1,8 @@
+<div ng-controller="blogLayoutCtrl">
+	<span>{{title}}</span>
 <div ng-include="'templates/header.html'">header</div>
-<div id="AppContainer" ui-view="container" ng-controller="blogLayoutCtrl" class="clearfix">
-	{{title}}
+<div ui-view="container">
+	
 </div>
 <div ng-include="'templates/footer.html'">footer</div>
+</div>
